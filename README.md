@@ -15,7 +15,7 @@ import ucigame.*;
  
  */
  
- //////////////////
+ 
  
  
  
@@ -25,12 +25,19 @@ import ucigame.*;
  
 public class PecMan extends ucigame.Ucigame{
    private Sprite pacman;
+   
    private Sprite fantasmaR,fantasmaR1,fantasmaR2,fantasmaR3;
+   
    private Sprite fantasmaPink,fantasmaPink1,fantasmaPink2,fantasmaPink3;
+   
    private Sprite fantasmaV,fantasmaV1,fantasmaV2,fantasmaV3;
+   
    private Sprite fantasmaC,fantasmaC1,fantasmaC2,fantasmaC3;
+   
    private Sprite C,CDer,CIzq,nuca; 
+   
    private Sound sonido;
+   
    final int ancho=700,alto=600;
     
     //

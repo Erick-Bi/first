@@ -266,21 +266,16 @@ public class PecMan extends ucigame.Ucigame{
     
      @Override
     public void draw(){
-        int m_x = mouse.x();
-        int m_y = mouse.y();
         
         canvas.clear();
-     //   fantasmaR.nextX(m_x-20);
-     //   fantasmaR.nextY(m_y-40);
-        fantasmaR.draw();fantasmaR2.draw();fantasmaR3.draw();
+        fantasmaR.draw();fantasmaR1.draw();fantasmaR2.draw();fantasmaR3.draw();
         C.draw();
         CDer.draw();
         CIzq.draw();
         nuca.draw();
-        fantasmaC.draw();
         fantasmaPink.draw();fantasmaPink1.draw();fantasmaPink2.draw();fantasmaPink3.draw();
         fantasmaV.draw();fantasmaV1.draw();fantasmaV2.draw();fantasmaV3.draw();
-        fantasmaR1.draw();fantasmaC1.draw();fantasmaC2.draw();fantasmaC3.draw();
+        fantasmaC.draw();fantasmaC1.draw();fantasmaC2.draw();fantasmaC3.draw();
           
     }
     public static void main(String[] args) {

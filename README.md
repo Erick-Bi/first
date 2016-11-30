@@ -6,10 +6,14 @@ package pecman;
 
 import java.util.Scanner;
 import ucigame.*;
+
+
 /**
  *
  * @author erick
  */
+ 
+ 
 public class PecMan extends ucigame.Ucigame{
    private Sprite pacman;
    private Sprite fantasmaR,fantasmaR1,fantasmaR2,fantasmaR3;

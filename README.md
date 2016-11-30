@@ -8,10 +8,19 @@ import java.util.Scanner;
 import ucigame.*;
 
 
-/**
- *
- * @author erick
+/*
+ 
+  @author erick
+ 
+ 
  */
+ 
+ //////////////////
+ 
+ 
+ 
+ 
+ 
  
  
 public class PecMan extends ucigame.Ucigame{

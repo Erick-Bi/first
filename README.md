@@ -1,8 +1,11 @@
 # first
 vamo a darle
 //DONE BY ERICK,LUIS & RUBEN
+
 package paca;
+
 import javax.swing.JOptionPane;
+
 import ucigame.*;
 
 //Ultimo

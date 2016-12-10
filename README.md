@@ -6,38 +6,71 @@ import javax.swing.JOptionPane;
 import ucigame.*;
 
 //Ultimo
+
 public class PacMan extends Ucigame {
+
 //Definicion de variables
+
     final private int w=700, h=700;
+    
     private int x=0;
+    
     private Sprite pacman;
+    
     private Sprite comida;
+    
     private Sprite Fan1,Fan2,Fan3,Fan4; /// VARIABLES QUE ALMACENARAN FANTASMAS ///
     private Sprite muralla;
+    
     private Sound sonido;
+    
     private Sound game;
+    
     private Sound sony;
+    
     private Tablero tabla[];
+    
     private comidas Comida[];
    
     private int valory=500;
+    
     private int valorx=500;
+    
     private int valorxx;
+    
     private int valoryy;
+    
     private int posicion_ini=0;
+    
     private int count;
+    
     private int puntuacion=0;
+    
     private int contador=0;
+    
     private int F1xx;
+    
     private int F2xx;
+    
     private int F3xx;
+    
     private int F1yy;
+    
     private int F2yy;
+    
     private int F3yy;
     
-   int F1x=600,F1y=215; ////////////////////////////////////
-   int F2x=68,F2y=30;   /// COORDENADAS DE CADA FANTASMA ///
-   int F3x=380,F3y=135; ////////////////////////////////////
+    ////////////////////////////////////
+    ///                              ///
+    /// COORDENADAS DE CADA FANTASMA ///
+    ///                              ///
+    ////////////////////////////////////
+    
+   int F1x=600,F1y=215;
+                                   
+   int F2x=68,F2y=30;             
+                                 
+   int F3x=380,F3y=135;           
    
    
   
@@ -981,6 +1014,7 @@ public class PacMan extends Ucigame {
 
 /////////////////////////////////////////////////////
 /* La Clase Tablero  */
+
 package paca;
 import ucigame.*;
 
